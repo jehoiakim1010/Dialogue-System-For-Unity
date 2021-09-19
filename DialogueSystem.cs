@@ -28,8 +28,8 @@ public class DialogueSystem : MonoBehaviour
         WaitForSeconds Wait = new WaitForSeconds(Timer);
 
         //Make a Loop For which determine how many Does snentences have
-        //The -1 removed the last sentences so make blank
-        //it will have an error if the there isn't -1
+        //The -1 removed the last sentence so make the last sentence or Array to Blank
+        //it will have an error if the there isn't -1 because the Index and sentences will be not equal
 
         for (int i = 0; i < sentences.Length - 1; i++)
         {
